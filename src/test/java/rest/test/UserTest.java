@@ -1,8 +1,8 @@
-package restAssured.test;
+package rest.test;
 
 import com.github.javafaker.Faker;
 import com.github.javafaker.Name;
-import commonUtils.templates.TestTemplate;
+import commonUtil.templates.TestTemplate;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.json.JSONObject;

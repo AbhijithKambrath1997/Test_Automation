@@ -3,13 +3,13 @@
 <suite name="Pet Store APIs" thread-count="2" parallel="classes" verbose="4">
     <parameter name="reportName" value="Pet Store APIs" />
     <listeners>
-        <listener class-name="commonUtils.listeners.ExtentReportManager"/>
+        <listener class-name="commonUtil.listeners.ExtentReportManager"/>
 <!--        Used to add Retry for entire method inside xml-->
 <!--        <listener class-name="retry.RetryTransformer"/>-->
     </listeners>
     <test name="Pet Store User APIs">
         <classes>
-            <class name="restAssured.test.UserTest"/>
+            <class name="rest.test.UserTest"/>
             <!-- Add more test classes if needed -->
         </classes>
     </test>

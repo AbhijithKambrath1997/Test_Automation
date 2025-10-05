@@ -1,9 +1,9 @@
-package restAssured.test;
+package rest.test;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
-import commonUtils.templates.TestTemplate;
+import commonUtil.templates.TestTemplate;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;

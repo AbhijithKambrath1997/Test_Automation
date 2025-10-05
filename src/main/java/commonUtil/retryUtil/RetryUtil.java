@@ -1,4 +1,4 @@
-package commonUtils.retryUtil;
+package commonUtil.retryUtil;
 
 import java.util.function.Supplier;
 

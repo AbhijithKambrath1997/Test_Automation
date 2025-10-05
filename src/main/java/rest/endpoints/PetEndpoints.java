@@ -1,7 +1,7 @@
 package rest.endpoints;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import commonUtils.fileReaders.PropertyReader;
+import commonUtil.fileReaders.PropertyReader;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

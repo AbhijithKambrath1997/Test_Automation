@@ -1,4 +1,4 @@
-package commonUtils.listeners;
+package commonUtil.listeners;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

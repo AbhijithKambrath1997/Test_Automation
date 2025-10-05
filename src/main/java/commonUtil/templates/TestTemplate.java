@@ -1,4 +1,4 @@
-package commonUtils.templates;
+package commonUtil.templates;
 
 import com.github.javafaker.Faker;
 import lombok.AccessLevel;

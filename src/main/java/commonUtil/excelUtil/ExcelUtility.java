@@ -1,4 +1,4 @@
-package commonUtils.excelUtil;
+package commonUtil.excelUtil;
 
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;

@@ -1,0 +1,57 @@
+get Methods
+```````````
+Web Page level
+
+conditionalMethods
+`````````````````
+WebElement level
+-> isDisplayed
+-> isEnabled
+-> isSelected
+
+Browser methods
+`````````````
+Driver always focus on first window
+Close -> Close Single Browser
+Quit  -> Close Multiple Browser
+
+Waiting Methods
+```````````````
+Thread.sleep() -> Java Method
+
+-> Implicit Wait => Internal wait to wait until synchronisation happen
+-> Explicit Wait => Waiting for specific action
+-> Fluent Wait   => Waiting for specific action by checking in intervals
+
+Navigate Methods
+````````````````
+navigate().to(url)
+    -> Load, Forward, reverse, Reload
+    -> Accept string and URL format
+get()
+    -> Load the page
+    -> Accept string format
+
+AlertMethods
+````````````
+Use explicit wait to perform alert action instead of window switch
+WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+Authenticated Methods
+`````````````````````
+Authenticated popup cant directly update using selenium.
+Pass details in url -> https://userId:password@url
+                               ```````````
+Frame/IFrame
+````````````
+driver.switchTo().frame(Id/Name/WebElement/Index) -> Switching to Frame
+driver.switchTo().defaultContent() -> Switching to Parent
+
+DropDown
+```````
+-> Select DropDown
+       => Select/Option Tag
+       => Use select Class
+-> BootStrap DropDown
+-> Hidden DropDown
+

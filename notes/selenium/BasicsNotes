@@ -1,0 +1,48 @@
+SearchContext
+ -> WebDriver
+     -> RemoteDriver
+         -> ChromiumDriver
+             -> ChromeDriver
+             -> EdgeDriver
+         -> FireFoxDriver
+         -> SafariDriver
+         -> InternetExplorerDriver
+
+Find Element Vs Find Elements
+`````````````````````````````
+Locator matching Single Element
+-> findElement  -> WebElement
+-> findElements -> List<WebElement>
+
+Locator matching Multiple Element
+-> findElement  -> First WebElement
+-> findElements -> List<WebElement>
+
+Locator matching No Element
+-> findElement  -> NoSuchElementException
+-> findElements -> No Exception(returns 0)
+
+Absolute Vs relative Xpath
+``````````````````````````
+Absolute
+    -> Starts with /
+    -> No Attributes
+    -> Traverse through each node
+Relative
+    -> Starts with //
+    -> Uses attributes
+    -> Jump to exact line to find element
+
+Starts-With Vs Contains
+```````````````````````
+Used to handle dynamic WebElements
+Contains    -> Value portion anywhere in the value
+Starts-With -> Value portion should be in starting
+
+
+CSS vs XPATH
+````````````
+CSS
+  -> Top to Bottom Direction
+Xpath
+  -> BiDirectional

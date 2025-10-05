@@ -1,0 +1,47 @@
+Locators
+ -> Id
+     -> driver.findElement(By.id())
+ -> Name
+     -> driver.findElement(By.name())
+ -> Link Text
+     -> Tag name is a and href with Link
+     -> driver.findElement(By.linkText())
+ -> PartialLink Text
+     -> Tag name is a and href with Link
+     -> driver.findElement(By.partialLinkText())
+ -> TagName
+     -> Get the list of WebElements with specific tagName
+     -> driver.findElements(By.tagName())
+ -> ClassName
+     -> Get the list of WebElements with specific className
+     -> driver.findElements(By.className())
+ -> CSS
+     -> tagName#id
+     -> tagName.className
+     -> tagName[attribute = "value"]
+     -> tagName.className[attribute = "value"]
+     -> tagName#id[attribute = "value"]
+ -> Xpath
+     -> Single Attribute    => //tagName[@attribute = "value"]
+     -> Multiple Attribute  => //tagName[@attribute1 = "value1"][@attribute2 = "value2"]
+     -> And Operator        => //tagName[@attribute1 = "value1" and @attribute2 = "value2"]
+     -> Or Operator         => //tagName[@attribute1 = "value1" or @attribute2 = "value2"]
+     -> InnerTexts          => //tagName[text() = "InnerTextValue"]
+     -> Contains            => //tagName[contains(@attribute, "partialValue")]
+     -> ContainsText        => //tagName[contains(text(), "InnerTextPartialValue")]
+     -> StartsWith          => //tagName[starts-with(@attribute, "partialValue")]
+     -> Chained             => parentXpath/childTagName
+     -> Xpath Axis          => Bidirectional way of locating
+                               //input[@name = "email"]/parent::div/parent::form/child::div
+                               /following-sibling::div/preceding-sibling::div/ancestor::form
+                               /ancestor::div/preceding-sibling::header/descendant::div
+                                -> Source            => Base locator
+                                -> Parent            => Parent Locator of current
+                                -> Child             => Child Locator of current
+                                -> Following-sibling => Next sibling of current locator
+                                -> Preceding-sibling => Next sibling of current locator
+                                -> Ancestor          => Any parent tag of Parent
+                                -> Descendant        => Any child tag of Child
+
+
+
