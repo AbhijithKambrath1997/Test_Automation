@@ -1,0 +1,21 @@
+
+{
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:deviceName": "emulator-5554"
+}
+
+{
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:deviceName": "emulator-5554",
+  "appium:appPackage": "io.appium.android.apis",
+  "appium:appActivity": ".ApiDemos"
+}
+
+{
+  "platformName": "Android",
+  "appium:automationName": "UiAutomator2",
+  "appium:deviceName": "emulator-5554",
+  "appium:app": "C:\\Users\\ABJITH\\Downloads\\ApiDemos-debug.apk"
+}
